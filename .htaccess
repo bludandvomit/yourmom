@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^yourmom.com [NC]
-RewriteRule ^(.*)$ http://www.yourmom.com/$1 [L,R=301,NC]
+RewriteRule ^(.*)$ http://www.yourmom.com/ [L,R=301,NC]
 
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^yourmom.com [NC,OR]
