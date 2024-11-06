@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>Testing Log-in Page</title>
+
+  <!--#include file="tomcat-users.xml" --> 
+
+<!-- Redirecting to another page using meta tag -->
+<meta http-equiv = "refresh" content = " time; url = file:///D:/School/Coding%20Tech/Codingstart.htm"/>
+<style>
+
+form {
+        display: inline-block;
+        text-align: centre;
+        border: 2px solid teal;
+        padding: 20px;
+      }
+      label, input {
+        display: block;
+        margin: 5px 0;
+      }
+      input[type="submit"] {
+        margin: 10px 0 0 0;
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+    </style></head>
+
+
+<body>
+
+<div id="cent">
+<form method="POST" action="j_security_check">
+
+<table>
+<tr>
+<td colspan="2">⋆</td>
+</tr>
+
+<body style="background-color:skyblue;">
+
+<h1 style="color:midnightblue; text-align:centre;">Give us Your soul</h1>
+
+<form>
+
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required>
+<label for="password">Password:</label>
+
+<input type="password" id="password" name="password" required>
+<tr>
+<td colspan="2"><input type="submit" value="Sold!">
+</tr>
+
+  </table>
+  </form>
+  </body>
+</html>
